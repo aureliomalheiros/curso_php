@@ -89,6 +89,35 @@
                         </li>
                     </ul>
                 </div>
+                <div class="modulo verde">
+                    <h3>Tipos</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=basico">Variaveis</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=desafio_equacao">Desafio Equação</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=atribuicoes">Atribuições</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=interpolacao">Interpolação</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=variaveis_variaveis">Variaveis Variaveis</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=desafio_variaveis_variaveis">Desafio Variaveis Variaveis</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=valor_referencia">Valor vs Referencia</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=constante">Constante</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
