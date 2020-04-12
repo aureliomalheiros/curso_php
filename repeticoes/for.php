@@ -1,19 +1,52 @@
-<div class="titulo">Laço FOR</div>
+<div class="titulo">Laço For</div>
 
 <?php
-for($cont = 1; $cont <= 5; $cont++){
-    echo $cont . " - Repeticao";
-    echo '<br>';
+for($cont = 1; $cont <= 5; $cont++) {
+    echo "$cont <br>";
 }
 
-$cont2 = 0;
+echo "<hr>";
 
-for(;$cont2 <= 10; $cont2++){
-    echo $cont2 . " - Nova repetição";
-    echo '<br>';
+for(; $cont <= 10; $cont++) {
+    echo "$cont <br>";
 }
 
-for(; $cont2 <= 12; $cont2++){
-    echo '<br>';
-    echo $cont2;
+echo "<hr>";
+
+for(; $cont <= 15; ) {
+    echo "$cont <br>";
+    $cont++;
+}
+
+
+$array = [
+    1 => 'Domingo',
+    'Segunda',
+    'Terça',
+    'Quarta',
+    'Quinta',
+    'Sexta',
+    'Sábado'
+];
+
+print_r($array);
+
+echo "<hr>";
+
+for($i = 1; $i <= count($array); $i++) {
+    echo "{$array[$i]} <br>";
+}
+
+$matrix = [
+    ['a', 'e', 'i', 'o', 'u'],
+    ['b', 'c', 'd']
+];
+
+echo "<hr>";
+
+for($i = 0; $i < count($matrix); $i++) {
+    for($j = 0; $j < count($matrix[$i]); $j++) {
+        echo "{$matrix[$i][$j]} ";
+    }
+    echo "<br>";
 }
