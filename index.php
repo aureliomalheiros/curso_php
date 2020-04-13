@@ -14,6 +14,23 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
+            <div class="modulo verde">
+                    <h3>7. Funções</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=escopo">função & Escopo</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=args_retorno">Argumentos & retorno</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=palindromo">Palindromo</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=arg_variaveis">Argumento Variaveis</a>
+                        </li>
+                    </ul>
+            </div>
                 <div class="modulo verde">
                     <h3>6. Repetições</h3>
                     <ul>
